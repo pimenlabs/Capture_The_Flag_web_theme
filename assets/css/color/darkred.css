@@ -1,0 +1,116 @@
+.navbar{
+min-height: 50px;
+margin-bottom: 20px;
+background: transparent linear-gradient(135deg, rgb(22, 22, 22) 0%, rgb(191, 28, 0) 50%, rgb(22, 22, 22) 100%) repeat scroll 0% 0%;
+
+}
+
+
+body{
+background: #232323;
+color:#fff;
+}
+
+
+
+.navbar .nav li:hover {
+    background: #202020;
+}
+.table > tbody > tr > td {
+border-top: 1px solid #131313;
+background:inheritance;
+}
+
+.table{
+padding: 19px;
+margin-bottom: 20px;
+border: 1px solid rgb(54, 54, 54);
+color: rgb(162, 162, 162);
+font-size: 14px;
+background: rgb(32, 32, 32) none repeat scroll 0% 0%;
+}
+
+.btn-default{
+border: 1px solid rgb(54, 54, 54);
+color: rgb(162, 162, 162);
+background: rgb(32, 32, 32) none repeat scroll 0% 0%;
+}
+
+.label-default {
+    border: 1px solid rgb(54, 54, 54);
+    color: rgb(162, 162, 162);
+    background: rgb(32, 32, 32) none repeat scroll 0% 0%;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td,.table-striped>tbody>tr:nth-child(odd)>th{background-color:#202020}
+
+.table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #414141;
+}
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    border: 1px solid #504e4e;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    background: #202020;
+    color: rgb(162, 162, 162);
+    
+}
+
+legend {
+    display: block;
+    width: 100%;
+    padding: 0 0 5px 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: inherit;
+    color: #FFF;
+    border: 0;
+    border-bottom: 1px solid #4b4040;
+}
+
+.form-control{
+background-color: transparent;
+border-color:#686464;
+}
+
+.fa-cog{
+color:#333;}
+
+
+.panel-default {
+    border-color: #ddd;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: 1px solid #686464;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+
+.panel-default > .panel-heading {
+border-color: #686464;
+    background-color: transparent;
+color: rgb(162, 162, 162);
+
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #B6B6B6;
+    background-color: transparent;
+    border: 1px solid #686464;
+    border-bottom-color: transparent;
+    cursor: default;
+}
+
+
+.nav-tabs {
+    border-bottom: 1px solid #686464;
+}
